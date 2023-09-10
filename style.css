@@ -1,0 +1,83 @@
+img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+}
+
+#search-form,
+#headForm {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#btnSubmit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#btnSubmit:hover {
+    background-color: #0056b3;
+
+}
+
+/* Estilos para la lista de sugerencias */
+#suggestions {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+   
+}
+
+#suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background-color: #f0f0f0;
+}
+
+#output {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.container{
+    background-color: #ffffff; 
+    padding: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
