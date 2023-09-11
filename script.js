@@ -94,6 +94,7 @@ document.getElementById('btnSubmit').addEventListener("click", function (e) {
              <h2>${statenotAbb} (${data.state})</h2>
              <p>Ultima fecha de actualizacion: ${data.lastUpdateEt}</p>
              <p>Casos Positivos: ${data.positive}</p>
+             <p>Personas Hospitalizadas: ${data.hospitalizedCurrently} </p>
              <p>Fallecidos: ${data.death}</p>
              </div>
          `;
